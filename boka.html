@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="Hotel Bright">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Home</title>
+  <link href="style.css" rel="stylesheet">
+  <link href="grid-style.css" rel="stylesheet">
+ 
+
+</head>
+
+<body>
+  <header>
+    <img id="logo" src="img/logo.png" alt="">
+    <img id="pool" src="img/hotel-pool-900-100.jpg" alt="">
+  </header>
+  <nav class="topnav" id="myTopnav">
+    <a href="index.html">Welcome</a>
+    <a href="boka.html" class="active">Boka</a>
+    <a href="hitta.html">Hitta</a>
+    <a href="kontakta.html">Kontakta</a>
+    <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+  </nav>
+  <section>
+
+    <div class="container">
+      <h1>Boka</h1>
+      <form action="tack.html">
+        <div class="row">
+          <div class="col-25">
+            <label for="fname">Förnamn</label>
+          </div>
+          <div class="col-75">
+            <input type="text" id="fname" name="firstname" placeholder="Ditt förnamn...">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="lname">Efternamn</label>
+          </div>
+          <div class="col-75">
+            <input type="text" id="lname" name="lastname" placeholder="Ditt efternamn...">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="telephone">Telefon</label>
+          </div>
+          <div class="col-75">
+            <input type="text" id="telephone" name="telephone" placeholder="Ditt telefonnummer...">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="email">Email</label>
+          </div>
+          <div class="col-75">
+            <input type="text" id="email" name="email" placeholder="Din epost...">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label>Rumstyp</label>
+          </div>
+          <div class="col-75">
+            <select id="typeroom" name="typeroom">
+              <option value="enkel">Enkelrum</option>
+              <option value="dubbel">Dubbelrum</option>
+              <option value="suit">Suit</option>
+            </select>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="subject">Övrigt</label>
+          </div>
+          <div class="col-75">
+            <textarea id="subject" name="subject" placeholder="Övrig info..." style="height:200px"></textarea>
+          </div>
+        </div>
+        <div class="row">
+          <input type="submit" value="Submit">
+        </div>
+      </form>
+    </div>
+  </section>
+  <aside>
+<h2>Regler</h2>
+<hr>
+<ul>
+ <li>Inga husdjur tillåtna.</li>
+ <li>Rökning är endast tillåten på designerade områden.</li>
+ <li>Följ respektfullt beteende gentemot andra gäster och personal.</li>
+ <li>Användning av hotellens faciliteter är endast tillåten för boende gäster.</li>
+ <li>Lämna inte värdesaker obevakade på allmänna platser.</li>
+ <li>Följ instruktionerna angående brandsäkerhet och nödutrymning.</li>
+ <li>Vänligen respektera tystnadstiden för att säkerställa en lugn miljö för alla gäster.</li>
+ <li>Skadegörelse av egendom är strängt förbjudet.</li>
+ <li>Vänligen informera personalen om eventuella allergier eller speciella kostbehov vid bokning eller incheckning.</li>
+ <li>Betala dina hotellräkningar och extraavgifter i tid för att undvika onödiga förseningar eller problem vid utcheckningen.</li>
+</ul>
+<hr>
+  </aside>
+  <footer>
+    <p>Jula Hotell | Pärongatan 15 | 211 33 Malmö | 073 384 09 35</p>
+  </footer>
+
+  <script src="script-nav.js"></script>
+</body>
+
+</html>
